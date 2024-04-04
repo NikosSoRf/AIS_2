@@ -28,12 +28,6 @@ sudo apt install parallel
 
 ./client [IP] [SERVER PORT] [FILENAME]
 parallel -j0 ./client 127.0.0.1 4026 :::
-/home/noks/Desktop/ASI-main/Haru
-/home/noks/Desktop/ASI-main/Haru1
-/home/noks/Desktop/ASI-main/Haru2
-/home/noks/Desktop/ASI-main/Haru3
-или
-parallel -j0 ./client 127.0.0.1 4026 :::
 /home/noks/Desktop/ASI-main/son1
 /home/noks/Desktop/ASI-main/son2
 ```
