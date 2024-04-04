@@ -6,10 +6,11 @@ cd /home/noks/Desktop/ASI-main
 
 ```
 ## Запуск Makefile.
-
+```
 make all
 
 cd app
+```
 ## Запуск сервера
 
 ```
@@ -17,11 +18,10 @@ cd app
 ./server 4026 ~/Downloads 2 10000
 
 ```
-## Запуск от рута
-su -
 ## Запуск параллельно
+```
 sudo apt install parallel
-
+```
 ## Запуск клиента
 
 ```
